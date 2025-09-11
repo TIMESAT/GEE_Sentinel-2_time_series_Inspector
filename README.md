@@ -16,8 +16,6 @@ Click anywhere on the map to view a point-based NDVI time series and inspect a r
 - **Legend + coordinates**: Inline legend and lon/lat readout.
 - **Cloud/scene masking**: Uses Sentinel-2 **SCL** (Scene Classification Layer) based mask.  
 
-![Screenshot](docs/screenshot.png) <!-- Replace with a real image or remove this line -->
-
 ---
 
 ## Quick start
@@ -36,14 +34,5 @@ Click anywhere on the map to view a point-based NDVI time series and inspect a r
 
 ---
 
-## How it works
 
-- **Data**: `COPERNICUS/S2_SR_HARMONIZED` (Sentinel-2 Surface Reflectance, harmonized).
-- **NDVI band**: Computed as `normalizedDifference(['B8', 'B4'])` and added to each image.
-- **Composite**: `.select('NDVI').max()` over the last **6 months** (default).
-- **Time series**: All available images from **2018-01-01** to the current date.
-- **Masking**: Keeps SCL classes {4: Vegetation, 5: Bare soil, 6: Water, 7: Cloud low-probability}.  
-  Adjust to your use case (e.g., exclude water or tighten cloud filtering).
-
----
 
