@@ -33,6 +33,6 @@ Click anywhere on the map to view a point-based NDVI time series and inspect a r
    - The map centers on a sample point (Skåne County, Sweden). Click anywhere to generate a chart.
 
 ---
-
+https://code.earthengine.google.com/7712ac4aa6074f70f976548c076ad630 
 
 
