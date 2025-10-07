@@ -25,6 +25,8 @@ Click anywhere on the map to view a point-based NDVI time series and inspect a r
    - Modern web browser.
 
 2. **Run in the Code Editor**
+   - Directly open https://code.earthengine.google.com/7712ac4aa6074f70f976548c076ad630 
+   - Or
    - Open the **GEE Code Editor** at https://code.earthengine.google.com/
    - Create a new script and paste the contents of `ee/ndvi_inspector.js`.
    - Click **Run** and authorize if prompted.
@@ -33,6 +35,6 @@ Click anywhere on the map to view a point-based NDVI time series and inspect a r
    - The map centers on a sample point (Skåne County, Sweden). Click anywhere to generate a chart.
 
 ---
-https://code.earthengine.google.com/7712ac4aa6074f70f976548c076ad630 
+
 
 
